@@ -1,0 +1,53 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    
+    font-family: 'Work sans';
+    font: lighter 1em "Bebas Neue", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(255, 124, 124), white);
+}
+
+main {
+    background-color: white;
+    width: 650px;
+    padding: 20px;
+    margin:auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(139, 68, 68, 0.521);
+    
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(245, 86, 86);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.397);
+    font-size: 3em;
+}
+
+#principal {
+    width: 300px;
+
+    text-align: right;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    padding: 20px;
+    margin: 10px 400px;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.384);
+    border-radius: 5px;
+}
+
+h2 {
+    color:rgb(255, 124, 124);
+    
+}
+
+.subtit {
+    color: blue;
+}

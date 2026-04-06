@@ -1,0 +1,21 @@
+div {
+    display: inline-block;
+    background-color: rgb(119, 119, 119);
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+div:hover {
+    color: yellow;
+    background-color: orange;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+}

@@ -1,0 +1,80 @@
+h1 - titulo
+p - paragrafo
+hr - fazer linha na horizontal ---- horizontal roll 
+br - quebra de linha - break roll
+<!--     comentario
+lt - less than
+gt - greater than 
+
+b - negrito == bold ---- negrito em ingles     ----- so eh uma forma 
+strong - fica em negrito, mas tem sentido, semantica 
+
+i - italico, so uma forma
+em - enfase - com semantica, sentido
+<!-- usar as formas semantica no html, deixar forma para o css -->
+
+ins - sublinhado
+del - deletado - texto com traco cortado 
+
+sup  -- 2 elevado a 3 
+sub  -- H2O
+
+code - para codigos
+pre -- ficar com os espacos aparecendo
+
+q - aspas, para citacao
+ 
+abbr -- abreviacao
+
+
+
+ol - Order list
+    li - dentro do ol, list icon 
+ul - Unorder List - lista nao ordenada
+dl - definition list
+   dd - definition description
+   dt - definition termo
+
+
+
+a - ancora, abrir um link clicando no texto
+    target="_blank" = para abrir em uma nova abreviacao
+    rel="external"
+    ../  ------ usar nos "" de local para voltar uma pasta!
+
+picture - tag 
+    source media type 
+
+audio -
+    autoplay - para automaticamente
+    controls - mostrar controles ---- essas duas tags colocar na frente dos aspas de diretorio 
+        
+
+lorem -- para escrever qualquer coisa
+
+
+background-image: linear-gradient(to right, rgb(255, 124, 124), white); ------ fazer degrade no background
+padding --- aumentar as bordas do quadrado ( interior )
+margin --- centralizar o popup
+border-radius --- deixar bordas arredondadas 
+box-shadow --- fazer sombra no quadrado 
+
+text-shadow: 1px 1px 0px rgba(116, 38, 38, 0.397)  --- sombra de texto
+
+font-size --- mudar tamanho da fonte
+font-weight - peso da fonte
+font-style --- italico
+font-family --- fonte da letra
+
+font-style ---> font-weight ---> font-size ---> font-family  -------------------- botar tudo em uma linha -nao em quatro q nem ali em cima
+exemplo: font: italic bolder 1em 'Work Sans', sans-serif;
+
+id === #
+class === .
+pseudo class === :
+pseudo element === ::
+filho === >
+ 
+border: 2px solid black; --- colocar borda
+display: inline-block; --- colocar eles um a frente do outro 
+

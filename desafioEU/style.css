@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    background-color: rgb(149, 248, 210);
+    margin: 0px;
+}
+
+header {
+    
+    margin: 0px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, rgb(85, 252, 188), rgba(0, 0, 0, 0.692));
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+}
+
+header > h1 {
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-size: 250%;
+}
+
+header > h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 85%;
+}
+
+header > nav > a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav > a:hover {
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+    padding: 10px;;
+    background-color:  rgb(85, 252, 188);
+    border-radius: 10px;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    width: 1000px;
+    padding: 40px;
+}
+
+article > h2 {
+    font-family:'idroid' ;
+    color:rgb(50, 148, 110) ;
+    font-size: 150%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+article > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.ddireita {
+    background-image: linear-gradient(to right, rgba(50, 148, 110, 0.192), white);
+    padding: 5px;
+    border-radius: 0px 20px;
+}
+
+p > a {
+    text-decoration: none;
+    color:rgb(85, 252, 188);
+    text-shadow: 1px 1px 1px black;
+}
+
+img {
+    display: block;
+    margin: auto;
+  
+}
+
+#mais {
+    background-color: rgb(152, 255, 195);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0px;
+}
+
+h3 {
+    background-color: green;
+    padding: 10px;
+    margin: 0px;
+}
