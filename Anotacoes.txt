@@ -78,3 +78,17 @@ filho === >
 border: 2px solid black; --- colocar borda
 display: inline-block; --- colocar eles um a frente do outro 
 
+
+
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+---- Shorthands do background ----
+        color --> image --> position --> repeat --> [size] --> attachment       ===== SIZE nao funciona   
+
+
+transform: translate(-50%, -50%); ---- mudar o eixo do position 
+position: relative / absolute 
+    left: 
+    top: 
