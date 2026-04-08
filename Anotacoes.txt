@@ -92,3 +92,22 @@ transform: translate(-50%, -50%); ---- mudar o eixo do position
 position: relative / absolute 
     left: 
     top: 
+
+
+Hierarquia da tabelas === 
+            Table = tabela (table)
+                Table ROW = linha de tabela (tr)
+                    Table header = cabecalho de tabela (th)
+                    Table data = dados da tabela (td)
+
+Hierarquia de tabelas grandes ====
+            Table 
+                Caption 
+                Thead
+                    Tr, Td, Th
+                Tbody
+                    Tr, Td, Th
+                Tfoot
+                    Tr, Td, 
+                    
+Obs = Th--> scope: qual o sentido, row e col (linha e coluna) onde esta os dados do titulo
